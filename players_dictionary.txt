@@ -1,17 +1,10 @@
-players_by_year.csv - seasonal aggregated player statistics, 1 row for every year a player has played at least five matches on the ATP Tour (1990 - 2021)
+players_by_year.csv - seasonal aggregated player statistics, 1 row for every year a player has played at least five matches on the ATP Tour (1990 - 2023)
 
-players.csv - aggregated player statistics, 1 row for every player that has played at least five matches on the ATP Tour between 1990 and 2021. Stats are aggregated across the entire year range.
+players.csv - aggregated player statistics, 1 row for every player that has played at least five matches on the ATP Tour between 1990 and 2023.
+Stats are aggregated across the entire year range.
 
-players_2000_2021.csv - seasonal aggregated player statistics (2000 - 2021)
-
-players_2009_2021.csv - seasonal aggregated player statistics (2009 - 2021)
-
-players_2022 - aggregated player statistics for 2022 season
-
-players_2023 - aggregated player statistics for 2023 season (Up to Queens Club Championships)
-
-
-Columns across all players CSVs are very similar, the only difference is that in players.csv, data is aggregated over a range of years and therefore the 'year' column is a string e.g. '1990-2021'. year_end_ranking, year_end_points and year_end_ranking_cat are omitted from players.csv.
+Columns across players CSVs are very similar, the only difference is that in players.csv, data is aggregated over a range of years and therefore the 'year' column is a string e.g. '1990-2021'. 
+year_end_ranking, year_end_points and year_end_ranking_cat are omitted from players.csv.
 
 year 
 - year or range of years the row corresponds to
@@ -23,7 +16,7 @@ id
 - unique player identifier
 
 age 
-- age of player at the time of their last match in the given year or range of years
+- age of player at the time of their last match in the given year(s)
 
 ioc 
 - three letter country code for nation player represents
@@ -44,10 +37,12 @@ tourney_plyd
 - number of tournaments played
 
 tourney_win_pct
-- proportion of tournaments that are won from tournaments entered i.e. titles / tourney_plyd
+- proportion of tournaments that are won from tournaments entered 
+- i.e. titles / tourney_plyd
 
 avg_tourney_level
-- average amount of points awarded for winning tournaments entered e.g. 1 x Grand Slam, 1x Masters = (2000 + 1000) / 2 = 1500
+- average amount of points awarded for winning tournaments entered
+- e.g. 1 x Grand Slam, 1x Masters = (2000 + 1000) / 2 = 1500
 
 matches_plyd
 - number of matches played 
@@ -101,10 +96,12 @@ df_per_game
 - number of double faults served per service game played
 
 sv_game_win_pct
-- rate at which player wins their service games i.e. serve games won / serve games played
+- rate at which player wins their service games
+- i.e. serve games won / serve games played
 
 return_game_win_pct
-- rate at which player wins their return games I.e. return games won / return games played
+- rate at which player wins their return games
+- i.e. return games won / return games played
 
 1st_pct
 - rate at which player gets their first serve in
@@ -181,7 +178,7 @@ minutes_per_set
 - average number of minutes taken to complete a set
 
 
-For seasonal aggregated player stats only e.g. players_by_year.csv, players_2022.csv:
+For seasonal aggregated player stats only i.e. players_by_year.csv
 
 year_end_ranking
 - ranking as of 31st December for given year

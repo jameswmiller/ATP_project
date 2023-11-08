@@ -29,7 +29,7 @@ To help answer these questions I use a range of methods including basic EDA, hyp
 ## Part 3: ATP_models.ipynb
 The goal of ATP_models is to expand on the analysis in the previous notebook and create a more powerful supervised machine learning model, namely a Random Forest Classifier and Regressor, 
 which will use serve and return stats to predict year-end rankings of players in the data set. I then test the model(s) performance on 2022 player data, and compare predicions made 
-by the model(s) to real values.
+by the model(s) to real values. I then build a Deep Learning Classification Model using the Keras framework of Tensorflow to see if I can increase performance over the Random Forest Classifier. 
 
 Throughout I aim to use my insight as a long term tennis player, coach, and avid fan of the professional game to help explain the results, successes and any shortcomings I encountered
 when completing the project.

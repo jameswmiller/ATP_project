@@ -1,4 +1,7 @@
 # Data Science Project: Analyse Associaton of Tennis Professional (ATP) Player Data
+
+### PSA for readers in 2024: ATP_models.ipynb is not currently displaying correctly on github.com, please download the raw file to view the full notebook.
+
 The aim of this project is to analyse ATP match and ranking data found in [Jeff Sackmann's Git Repository](https://github.com/JeffSackmann/tennis_atp).
 The project is split into 3 parts, each written in Python via a Jupyter Notebook.
 
